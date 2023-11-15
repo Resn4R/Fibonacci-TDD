@@ -8,7 +8,14 @@
 import Foundation
 
 struct FibonacciSequence {
-    func fibonacciNumber(atIndex position: Int) -> Int {
-        position == 0 ? 0 : 1
+    func getFibonacciNumber(atIndex position: Int) -> Int {
+        switch position {
+        case 0:
+            0
+        case 1: 1
+        case 2: 1
+        default:
+            0
+        }
     }
 }

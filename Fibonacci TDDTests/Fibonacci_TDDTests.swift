@@ -13,12 +13,24 @@ final class Fibonacci_TDDTests: XCTestCase {
     func testGivenF0ShouldReturn0() {
         let sample = FibonacciSequence()
         
-        XCTAssertEqual(sample.fibonacciNumber(atIndex: 0), 0)
+        XCTAssertEqual(sample.getFibonacciNumber(atIndex: 0), 0)
     }
     
     func testGivenF1ShouldReturn1() {
         let sample = FibonacciSequence()
         
-        XCTAssertEqual(sample.fibonacciNumber(atIndex: 1), 1)
+        XCTAssertEqual(sample.getFibonacciNumber(atIndex: 1), 1)
+    }
+    
+    func testGivenF2ShouldReturn1() {
+        let sample = FibonacciSequence()
+        
+        XCTAssertEqual(sample.getFibonacciNumber(atIndex: 2), 1)
+    }
+    
+    func testGivenF7ShouldReturn8() {
+        let sample = FibonacciSequence()
+        
+        XCTAssertEqual(sample.getFibonacciNumber(atIndex: 7), 8)
     }
 }
