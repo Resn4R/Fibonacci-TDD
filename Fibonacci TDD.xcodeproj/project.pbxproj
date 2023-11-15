@@ -14,6 +14,7 @@
 		4F5D3DDF2B04F422005D96F5 /* Fibonacci_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D3DDE2B04F422005D96F5 /* Fibonacci_TDDTests.swift */; };
 		4F5D3DE92B04F422005D96F5 /* Fibonacci_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D3DE82B04F422005D96F5 /* Fibonacci_TDDUITests.swift */; };
 		4F5D3DEB2B04F422005D96F5 /* Fibonacci_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D3DEA2B04F422005D96F5 /* Fibonacci_TDDUITestsLaunchTests.swift */; };
+		4F5D3DF82B04F62A005D96F5 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D3DF72B04F62A005D96F5 /* FibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4F5D3DE42B04F422005D96F5 /* Fibonacci TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fibonacci TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5D3DE82B04F422005D96F5 /* Fibonacci_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_TDDUITests.swift; sourceTree = "<group>"; };
 		4F5D3DEA2B04F422005D96F5 /* Fibonacci_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F5D3DF72B04F62A005D96F5 /* FibonacciSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4F5D3DCD2B04F420005D96F5 /* Fibonacci_TDDApp.swift */,
 				4F5D3DCF2B04F420005D96F5 /* ContentView.swift */,
+				4F5D3DF72B04F62A005D96F5 /* FibonacciSequence.swift */,
 				4F5D3DD12B04F422005D96F5 /* Assets.xcassets */,
 				4F5D3DD32B04F422005D96F5 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5D3DF82B04F62A005D96F5 /* FibonacciSequence.swift in Sources */,
 				4F5D3DD02B04F420005D96F5 /* ContentView.swift in Sources */,
 				4F5D3DCE2B04F420005D96F5 /* Fibonacci_TDDApp.swift in Sources */,
 			);
