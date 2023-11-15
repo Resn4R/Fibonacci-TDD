@@ -39,4 +39,10 @@ final class Fibonacci_TDDTests: XCTestCase {
         
         XCTAssertEqual(sample.getFibonacciNumber(atIndex: 19), 4181)
     }
+    
+    func testGivenNegativeNumberShouldReturnError() {
+        let sample = FibonacciSequence()
+        
+        XCTAssertEqual(sample.getFibonacciNumber(atIndex: -5), -1)
+    }
 }
